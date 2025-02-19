@@ -1,34 +1,56 @@
-# React JS Landing Page Template
+# 📌 Proyecto SAP - Página Informativa
 
-**
+Este es un proyecto de una página web informativa desarrollado con React. Su propósito es proporcionar información estructurada sobre diversos servicios y características de una empresa o producto.
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+## 📂 Estructura del Proyecto
 
-**
+```
+📦src
+ ┣ 📂components
+ ┃ ┣ 📜Team.jsx            # Sección del equipo
+ ┃ ┣ 📜about.jsx           # Sección "Sobre nosotros"
+ ┃ ┣ 📜contact.jsx         # Sección de contacto
+ ┃ ┣ 📜ecomerce.jsx        # Sección de e-commerce
+ ┃ ┣ 📜features.jsx        # Sección de características
+ ┃ ┣ 📜gallery.jsx         # Sección de galería de imágenes
+ ┃ ┣ 📜header.jsx          # Encabezado de la página
+ ┃ ┣ 📜image.jsx           # Componente de imagen
+ ┃ ┣ 📜navigation.jsx      # Barra de navegación
+ ┃ ┣ 📜services.jsx        # Sección de servicios
+ ┃ ┗ 📜testimonials.jsx    # Sección de testimonios
+ ┣ 📂data
+ ┃ ┗ 📜data.json          # Datos estructurados de la página
+ ┣ 📜App.css              # Estilos generales de la aplicación
+ ┣ 📜App.jsx              # Componente principal de la aplicación
+ ┣ 📜index.css            # Estilos globales
+ ┣ 📜index.js             # Punto de entrada de la aplicación
+ ┣ 📜logo.svg             # Logo de la página
+ ┣ 📜serviceWorker.js     # Archivo para el Service Worker
+ ┗ 📜setupTests.js        # Configuración de pruebas
+```
 
+## 🚀 Instalación y Ejecución
 
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
+1. Clona este repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
+2. Accede al directorio del proyecto:
+   ```sh
+   cd tu-repositorio
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```sh
+   npm start
+   ```
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+## 📜 Licencia y Uso
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+Este proyecto es de código abierto bajo la licencia MIT, pero **NO está permitida su distribución con fines comerciales** sin autorización expresa del autor.
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
+© 2025 Jose Jara. Todos los derechos reservados.
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
-
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-
-##### Issaaf kattan
