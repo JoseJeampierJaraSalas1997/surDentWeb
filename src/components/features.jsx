@@ -5,7 +5,8 @@ export const Features = (props) => {
     <div id="features" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Features</h2>
+          <h2>Máxima Protección para tu Salud Dental</h2>
+          <p>Calidad, innovación y seguridad en cada producto para el cuidado de tu sonrisa.</p>
         </div>
         <div className="row">
           {props.data
@@ -14,10 +15,10 @@ export const Features = (props) => {
                   {" "}
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
-                  <p>{d.text}</p>
+                  <p><strong>{d.text}</strong></p>
                 </div>
               ))
-            : "Loading..."}
+            : "Cargando..."}
         </div>
       </div>
     </div>

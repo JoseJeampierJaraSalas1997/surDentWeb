@@ -1,132 +1,188 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Dental Kids | Tu Kit Ideal",
+    "paragraph": "Encuentra Soluciones Completas y Personalizadas con Productos de Alta Calidad para Cada Proyecto y Necesidad"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Nos especializamos en productos dentales diseñados para el cuidado integral de toda la familia. Ofrecemos soluciones seguras y efectivas para mantener una higiene bucal óptima, con especial atención en los más pequeños del hogar. Nuestra misión es fomentar hábitos saludables desde la infancia, proporcionando productos de alta calidad que hacen del cuidado dental una experiencia sencilla y agradable.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Productos seguros y aptos para toda la familia",
+      "Especial atención en el cuidado dental infantil",
+      "Ingredientes y materiales de alta calidad",
+      "Facilitan hábitos saludables de higiene bucal"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Variedad de productos para todas las edades",
+      "Diseños divertidos y atractivos para niños",
+      "Compromiso con el bienestar familiar",
+      "Disponibles en puntos de venta y en línea"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Cepillo de dientes eléctrico",
+      "largeImage": "img/galleryProducts/01.jpg",
+      "smallImage": "img/galleryProducts/01.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Hilo dental",
+      "largeImage": "img/galleryProducts/02.jpg",
+      "smallImage": "img/galleryProducts/02.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Pasta dental blanqueadora",
+      "largeImage": "img/galleryProducts/03.jpg",
+      "smallImage": "img/galleryProducts/03.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Enjuague bucal",
+      "largeImage": "img/galleryProducts/04.jpg",
+      "smallImage": "img/galleryProducts/04.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Irrigador bucal",
+      "largeImage": "img/galleryProducts/05.jpg",
+      "smallImage": "img/galleryProducts/05.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Kit de blanqueamiento dental",
+      "largeImage": "img/galleryProducts/06.jpg",
+      "smallImage": "img/galleryProducts/06.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Protector bucal",
+      "largeImage": "img/galleryProducts/07.jpg",
+      "smallImage": "img/galleryProducts/07.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Espejo dental con luz LED",
+      "largeImage": "img/galleryProducts/esp.webp",
+      "smallImage": "img/galleryProducts/esp.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Set de exploración dental",
+      "largeImage": "img/galleryProducts/09.jpg",
+      "smallImage": "img/galleryProducts/09.jpg"
+    }
+  ],
+  "Products": [
+    {
+      "name": "Cepillo Dental Infantil",
+      "description": "Cepillo de dientes suave para niños con mango ergonómico.",
+      "price": 5.99,
+      "image": "/images/cepillo-infantil.jpg"
+    },
+    {
+      "name": "Enjuague Bucal Familiar",
+      "description": "Protege la salud bucal de toda la familia con flúor y menta.",
+      "price": 9.99,
+      "image": "/images/enjuague-bucal.jpg"
+    },
+    {
+      "name": "Pasta Dental Fluorada",
+      "description": "Pasta dental con flúor para la prevención de caries y encías sanas.",
+      "price": 3.99,
+      "image": "/images/pasta-dental.jpg"
+    },
+    {
+      "name": "Hilo Dental de Menta",
+      "description": "Elimina la placa entre los dientes y deja un aliento fresco.",
+      "price": 2.99,
+      "image": "/images/hilo-dental.jpg"
+    },
+    {
+      "name": "Irrigador Bucal Portátil",
+      "description": "Limpieza profunda con chorro de agua para encías saludables.",
+      "price": 39.99,
+      "image": "/images/irrigador-bucal.jpg"
+    },
+    {
+      "name": "Kit de Blanqueamiento Dental",
+      "description": "Incluye gel blanqueador y férulas para dientes más blancos.",
+      "price": 29.99,
+      "image": "/images/kit-blanqueamiento.jpg"
+    },
+    {
+      "name": "Cepillo Dental Eléctrico",
+      "description": "Tecnología sónica para una limpieza profunda y eficaz.",
+      "price": 49.99,
+      "image": "/images/cepillo-electrico.jpg"
+    },
+    {
+      "name": "Enjuague Bucal Antiséptico",
+      "description": "Elimina bacterias y previene la gingivitis.",
+      "price": 7.99,
+      "image": "/images/enjuague-antiseptico.jpg"
+    },
+    {
+      "name": "Protector Bucal Nocturno",
+      "description": "Ideal para evitar el bruxismo y proteger los dientes.",
+      "price": 19.99,
+      "image": "/images/protector-bucal.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-medkit",
+      "name": "Higiene Dental Familiar",
+      "text": "Cuidado dental completo para adultos y niños. Contamos con cepillos, pastas y enjuagues diseñados para mantener la salud bucal de toda la familia."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-smile-o",
+      "name": "Cuidado Dental Infantil",
+      "text": "Productos pensados para niños, con ingredientes suaves y sabores agradables que ayudan a crear hábitos saludables desde pequeños."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-heartbeat",
+      "name": "Salud Bucal Preventiva",
+      "text": "Enjuagues, hilo dental y tratamientos para proteger el esmalte, prevenir caries y reducir la sensibilidad dental en personas de todas las edades."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-user-md",
+      "name": "Recomendado por Expertos",
+      "text": "Todos nuestros productos están avalados por odontólogos y especialistas para garantizar la seguridad y efectividad en el cuidado diario."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-briefcase",
+      "name": "Kits de Cuidado Bucal",
+      "text": "Kits completos con todo lo necesario para una higiene bucal óptima. Ideales para llevar de viaje o para mantener una rutina diaria eficiente."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-leaf",
+      "name": "Productos Naturales",
+      "text": "Opciones ecológicas sin químicos agresivos, ideales para quienes buscan alternativas saludables y respetuosas con el medio ambiente."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Los productos son de excelente calidad y el servicio es muy bueno. Totalmente recomendado.\"",
+      "name": "Jose Jara"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Estoy muy satisfecho con mi compra. La atención al cliente fue rápida y eficiente. Me ayudaron a elegir el mejor producto para mis necesidades.\"",
+      "name": "José Luis Ramírez"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Buena calidad y precios accesibles. Hice mi pedido en línea sin problemas y llegó antes de lo esperado. Sin duda volveré a comprar aquí.\"",
+      "name": "Ruben Guzman"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"El proceso de compra fue sencillo y seguro. Me encantó la variedad de productos y la rapidez del envío. Recomiendo mucho esta tienda.\"",
+      "name": "Allison Gutiérrez"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Muy buena experiencia de compra. Me asesoraron en todo momento y recibí un producto de gran calidad. Superó mis expectativas totalmente.\"",
+      "name": "Luis Cabrera"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Siempre compro aquí porque tienen buenos precios y atención de primera. La calidad de los productos es excelente y la entrega muy puntual.\"",
+      "name": "Pilar Alva"
     }
   ],
   "Team": [
@@ -152,8 +208,8 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
+    "address": "Miraflores - Lima - peru",
+    "phone": "+51 968097419",
     "email": "info@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
@@ -161,24 +217,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-shield",
+      "title": "Protección Dental Avanzada",
+      "text": "Productos diseñados para garantizar la salud y protección de tus dientes en todo momento."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-lock",
+      "title": "Materiales de Alta Calidad",
+      "text": "Utilizamos los mejores materiales para asegurar durabilidad y efectividad en cada tratamiento."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-heartbeat",
+      "title": "Comodidad y Seguridad",
+      "text": "Nuestros productos están diseñados para ofrecer la máxima comodidad sin comprometer la seguridad."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-flask",
+      "title": "Innovación en Odontología",
+      "text": "Tecnología de última generación para brindar soluciones efectivas y seguras para el cuidado bucal."
     }
   ]
 }

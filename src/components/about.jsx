@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 export const About = (props) => {
   return (
     <div id="about">
@@ -7,20 +7,36 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              whileHover={{ scale: 1.05 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ amount: 0.2 }}
+            >
+              <img
+                src="img/porque.webp"
+                className="img-responsive"
+                alt="Imagen animada"
+                style={{ borderRadius: "20px" }}
+              />
+            </motion.div>
+
+            {" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
+              <h2>Sobre nosotros</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
+              <h3>¿Por qué elegirnos?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
                       ? props.data.Why.map((d, i) => (
-                          <li key={`${d}-${i}`}>{d}</li>
-                        ))
+                        <li key={`${d}-${i}`}>{d}</li>
+                      ))
                       : "loading"}
                   </ul>
                 </div>
@@ -28,8 +44,8 @@ export const About = (props) => {
                   <ul>
                     {props.data
                       ? props.data.Why2.map((d, i) => (
-                          <li key={`${d}-${i}`}> {d}</li>
-                        ))
+                        <li key={`${d}-${i}`}> {d}</li>
+                      ))
                       : "loading"}
                   </ul>
                 </div>
