@@ -1,72 +1,59 @@
 import React from "react";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
+          {/* Botón para menú responsive */}
           <button
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
+            data-target="#navbar-menu"
+            aria-label="Toggle navigation"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Dent Kids
-          </a>{" "}
+
+          {/* Logo */}
+          <a className="navbar-brand page-scroll" href="#page-top" style={{ display: "flex", alignItems: "center" }}>
+            <img
+              src="img/logo.png"
+              alt="H&M Health Logo"
+              style={{
+                maxHeight: "80px",
+                width: "auto",
+                maxWidth: "200px", 
+                objectFit: "contain", 
+                display: "block"
+              }}
+            />
+          </a>
+
+
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        {/* Menú de navegación */}
+        <div className="collapse navbar-collapse" id="navbar-menu">
           <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
-              Características
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
-              Acerca de
-              </a>
-            </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Servicios
-              </a>
-            </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Galeria
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testimonios
-              </a>
-            </li>
-            {/*<li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>*/}
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contacto
-              </a>
-            </li>
-            <li>
-              <a href="https://e-comerce-firease-next.vercel.app/uikit/list" className="page-scroll">
-                Productos
-              </a>
-            </li>
+            {[
+              { href: "#features", label: "Características" },
+              { href: "#about", label: "Acerca de" },
+              { href: "#services", label: "Servicios" },
+              { href: "#portfolio", label: "Galería" },
+              { href: "#testimonials", label: "Testimonios" },
+              { href: "#contact", label: "Contacto" },
+              { href: "https://e-comerce-firease-next.vercel.app/uikit/list", label: "Productos", external: true },
+            ].map(({ href, label, external }) => (
+              <li key={href}>
+                <a href={href} className="page-scroll" {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+                  {label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

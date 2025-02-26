@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Dental Kids | Tu Kit Ideal",
+    "title": "Y&M Health",
     "paragraph": "Encuentra Soluciones Completas y Personalizadas con Productos de Alta Calidad para Cada Proyecto y Necesidad"
   },
   "About": {
@@ -218,23 +218,24 @@
   "Features": [
     {
       "icon": "fa fa-shield",
-      "title": "Protección Dental Avanzada",
-      "text": "Productos diseñados para garantizar la salud y protección de tus dientes en todo momento."
+      "title": "Alta Demanda en el Mercado",
+      "text": "Productos con gran aceptación y preferencia entre clientes que buscan calidad y protección dental."
     },
     {
       "icon": "fa fa-lock",
-      "title": "Materiales de Alta Calidad",
-      "text": "Utilizamos los mejores materiales para asegurar durabilidad y efectividad en cada tratamiento."
+      "title": "Garantía de Rentabilidad",
+      "text": "Materiales de primera que aseguran confianza y satisfacción, facilitando la fidelización de tus clientes."
     },
     {
       "icon": "fa fa-heartbeat",
-      "title": "Comodidad y Seguridad",
-      "text": "Nuestros productos están diseñados para ofrecer la máxima comodidad sin comprometer la seguridad."
+      "title": "Atractivo para el Cliente Final",
+      "text": "Diseñados para ofrecer comodidad y seguridad, garantizando una experiencia positiva de uso."
     },
     {
       "icon": "fa fa-flask",
-      "title": "Innovación en Odontología",
-      "text": "Tecnología de última generación para brindar soluciones efectivas y seguras para el cuidado bucal."
+      "title": "Innovación y Exclusividad",
+      "text": "Tecnología avanzada que te permite diferenciarte en el mercado con soluciones únicas en el sector dental."
     }
-  ]
+]
+
 }

@@ -16,9 +16,9 @@ export const About = (props) => {
               viewport={{ amount: 0.2 }}
             >
               <img
-                src="img/porque.webp"
+                src="img/imagen_dental.jpg"
                 className="img-responsive"
-                alt="Imagen animada"
+                alt="Imagen y&mHealt"
                 style={{ borderRadius: "20px" }}
               />
             </motion.div>
