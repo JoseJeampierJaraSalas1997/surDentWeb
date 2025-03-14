@@ -22,7 +22,7 @@ export const Navigation = () => {
           <a className="navbar-brand page-scroll" href="#page-top" style={{ display: "flex", alignItems: "center" }}>
             <img
               src="img/logo.png"
-              alt="H&M Health Logo"
+              alt="surDent Logo"
               style={{
                 maxHeight: "80px",
                 width: "auto",
