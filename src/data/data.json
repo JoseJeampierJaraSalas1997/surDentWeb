@@ -1,6 +1,6 @@
 {
   "Header": {
-    "title": "Y&M Health",
+    "title": "SurDent",
     "paragraph": "Encuentra Soluciones Completas y Personalizadas con Productos de Alta Calidad para Cada Proyecto y Necesidad"
   },
   "About": {
@@ -125,7 +125,7 @@
     {
       "icon": "fa fa-medkit",
       "name": "Higiene Dental Familiar",
-      "text": "Cuidado dental completo para adultos y niños. Contamos con cepillos, pastas y enjuagues diseñados para mantener la salud bucal de toda la familia."
+      "text": "Cuidado dental completo para adultos y niños. Contamos con cepillos, pastas y enjuagues diseñados para mantener la salud bucal"
     },
     {
       "icon": "fa fa-smile-o",
