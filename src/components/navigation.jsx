@@ -21,7 +21,7 @@ export const Navigation = () => {
           {/* Logo */}
           <a className="navbar-brand page-scroll" href="#page-top" style={{ display: "flex", alignItems: "center" }}>
             <img
-              src="img/logo.png"
+              src="img/logo.svg"
               alt="surDent Logo"
               style={{
                 maxHeight: "80px",
