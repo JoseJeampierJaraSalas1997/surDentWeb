@@ -24,7 +24,7 @@ Este es un proyecto de una página web informativa desarrollado con React. Su pr
  ┣ 📜App.jsx              # Componente principal de la aplicación
  ┣ 📜index.css            # Estilos globales
  ┣ 📜index.js             # Punto de entrada de la aplicación
- ┣ 📜logo.svg             # Logo de la página
+ ┣ 📜logo.png             # Logo de la página
  ┣ 📜serviceWorker.js     # Archivo para el Service Worker
  ┗ 📜setupTests.js        # Configuración de pruebas
 ```

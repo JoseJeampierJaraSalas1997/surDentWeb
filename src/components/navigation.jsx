@@ -21,7 +21,7 @@ export const Navigation = () => {
           {/* Logo */}
           <a className="navbar-brand page-scroll" href="#page-top" style={{ display: "flex", alignItems: "center" }}>
             <img
-              src="img/logo.svg"
+              src="img/logo.png"
               alt="DentanaPro Logo"
               style={{
                 maxHeight: "80px",
